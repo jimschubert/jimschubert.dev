@@ -1,6 +1,6 @@
 # Jim Schubert's Resume
 
-This is the resume I host at https://jimschubert.us.
+This is the resume I host at https://jimschubert.dev.
 
 The resume is written with [Hugo](https://gohugo.io/).
 

@@ -438,51 +438,47 @@ publications:
 skills:
   summary: ''
   list:
-    - name: OpenRewrite
-      rank: 85
-    - name: OpenAPI Generator
-      rank: 90
+    - name: Mentoring
+      rank: 100
+    - name: OpenSource
+      rank: 100
+    - name: Engineering Management
+      rank: 95
+    - name: Architecture + Design
+      rank: 95
     - name: Go ("Golang")
       rank: 95
     - name: Java
       rank: 95
     - name: Docker
+      rank: 95
+    - name: Testing and Automation
+      rank: 95
+    - name: Performance Optimization
+      rank: 95
+    - name: REST / OpenAPI
+      rank: 95
+    - name: Observability (OpenTelemetry)
       rank: 90
-    - name: node.js
+    - name: Microservices
       rank: 90
-    - name: JavaScript
+    - name: Security / Vulnerability
       rank: 90
-    - name: REST API
+    - name: JavaScript Ecosystem
       rank: 90
-    - name: Jetbrains IDEs
-      rank: 88
-    - name: Shell Scripting
+    - name: OpenRewrite
+      rank: 85
+    - name: AWS Cloud / Infrastructure
+      rank: 85
+    - name: CI/CD-related
       rank: 85
     - name: RDMS
       rank: 80
-    - name: Scala
-      rank: 85
-    - name: Kotlin
-      rank: 80
-    - name: Groovy
+    - name: Other JVM
       rank: 75
-    - name: Python
+    - name: Other Languages
       rank: 75
-    - name: Visual C++
+    - name: PHP
       rank: 40
-    - name: XML/XSL
-      rank: 60
-    - name: C#/.NET
-      rank: 80
-    - name: Wireshark
-      rank: 45
-    - name: Consul
-      rank: 55
-    - name: Build (Maven/Gradle)
-      rank: 75
-    - name: HTML/XHTML & CSS
-      rank: 90
-    - name: SQLite3
-      rank: 60
-    - name: VERY (persistent)
+    - name: Getting things done
       rank: 100

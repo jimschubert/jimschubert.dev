@@ -438,8 +438,10 @@ publications:
 skills:
   summary: ''
   list:
+    - name: OpenRewrite
+      rank: 85
     - name: OpenAPI Generator
-      rank: 100
+      rank: 90
     - name: Go ("Golang")
       rank: 95
     - name: Java
@@ -449,7 +451,7 @@ skills:
     - name: node.js
       rank: 90
     - name: JavaScript
-      rank: 98
+      rank: 90
     - name: REST API
       rank: 90
     - name: Jetbrains IDEs
@@ -469,7 +471,7 @@ skills:
     - name: Visual C++
       rank: 40
     - name: XML/XSL
-      rank: 55
+      rank: 60
     - name: C#/.NET
       rank: 80
     - name: Wireshark

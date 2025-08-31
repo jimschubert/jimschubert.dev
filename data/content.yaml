@@ -12,12 +12,13 @@ summary: |
   I'm a hands-on Senior Lead Software Engineer who thrives on building high-impact teams, 
   leading complex technical initiatives, and making the tough stuff feel simple. I also like coffee.
 
-  I don’t just write code — I create environments where teams deliver faster, more secure code, and 
-  with less stress. Whether mentoring an engineer through their first production launch, 
-  leading enterprise-wide migrations, or untangling gnarly legacy systems, I bring 
-  curiosity, humor, and a knack for making progress feel contagious.
-
-  My mission? To help great teams become exceptional, one solution (and a couple dad jokes) at a time.
+  I don't just write code — I architect systems that scale and create environments where teams ship confidently.
+  Whether I'm mentoring engineers through their first enterprise deployment, leading organization-wide platform migrations,
+  or untangling legacy systems that "nobody understands anymore," I bring curiosity, humor, and a talent for making breakthroughs feel inevitable.
+  
+  _My mission?_ Helping great engineering teams become exceptional, one elegant solution (and strategically-timed dad joke) at a time.
+  
+  Currently open to connecting with fellow engineers, discussing interesting technical challenges, or debating whether tabs or spaces are objectively correct.
 
 links:
   - href: https://github.com/jimschubert
@@ -70,11 +71,11 @@ experience:
     bullets:
       - Contributed to event-driven login/authentication messaging (decommissioned).
       - Contributed to enterprise-wide enrollments, offering technical expertise in microservices design and implementation.
-      - Drove adoption of shift-left practices across 30+ engineering teams, and nearly 200 components.
-      - Resolved multiple performance and vulnerability issues through cross-team collaboration.
-      - Fixed an internal enterprise Spring library's performance degradation related to error caching (again, Caffeine cache) that impacted every application using the library.
+      - Drove adoption of shift-left practices across my organization of 30+ engineering teams, and nearly 200 components.
+      - Resolved many performance and vulnerability issues through cross-team collaboration.
+      - Fixed an internal enterprise Spring library's performance degradation related to error caching (Caffeine cache) that impacted every application using the library.
       - Influenced engineering patterns and practices through contributions to internal tooling, by better aligning their implementations with industry best practices; e.g. requiring branch protections on critical release branches and avoiding unnecessary re-deployments to development environments.
-      - Designed and led my team in the implementation of a tool adopted by enterprise as the preferred tool for migrating applications to ECS Fargate. This tool reads AWS configurations regardless of the application’s original CI tool and outputs the configurations necessary for the enterprise’s standard CI/CD pipeline (internal), reducing migration effort from 1-4 days to 1-4 _hours_.
+      - Designed and delivered the enterprise-standard ECS Fargate migration tool, reducing migration effort from 1-4 days to 1-4 _hours_.
       - Led my team of SMEs to support 30+ teams within my organization related to our internal CI/CD pipeline and its plugins, the enterprise-preferred internal Spring library, general AWS guidance, Java/Go/Groovy/Jenkins questions, and other best practices.
       - Analyzed and defined organization guidance for Log4Shell vulnerability and remediation.
       - Mentored multiple engineers, on my team and outside of it.

@@ -9,19 +9,16 @@ title: Sr. Lead Software Engineer
 meta_title: Jim Schubert, Sr. Lead Software Engineer
 meta_description: A well-rounded hands-on senior manager level engineer who has been coding since 1988.
 summary: |
-  I'm a hands-on Senior Lead Software Engineer who is interested in new technologies and innovative ideas.
-  Here are some things I bring to the table:
-  
-  * passion
-  * quality
-  * accuracy
-  * code
-  * humor
-  * …food
-  
-  I believe that the best code is a product of a fun environment and an amazing team.
-  
-  My colleagues and mentees alike always say they have learned a lot from me, especially as a result of my passion and patience.
+  I'm a hands-on Senior Lead Software Engineer who thrives on building high-impact teams, 
+  leading complex technical initiatives, and making the tough stuff feel simple. I also like coffee.
+
+  I don’t just write code — I create environments where teams deliver faster, more secure code, and 
+  with less stress. Whether mentoring an engineer through their first production launch, 
+  leading enterprise-wide migrations, or untangling gnarly legacy systems, I bring 
+  curiosity, humor, and a knack for making progress feel contagious.
+
+  My mission? To help great teams become exceptional, one solution (and a couple dad jokes) at a time.
+
 links:
   - href: https://github.com/jimschubert
     title: github/jimschubert
@@ -71,17 +68,20 @@ experience:
     company: Redacted (contact for details)
     location: _Richmond, VA_
     bullets:
-      - Contributed to event-driven login/authentication messaging (decommissioned)
+      - Contributed to event-driven login/authentication messaging (decommissioned).
       - Contributed to enterprise-wide enrollments, offering technical expertise in microservices design and implementation.
-      - Influenced my organization regarding "shift-left" best practices.
+      - Drove adoption of shift-left practices across 30+ engineering teams, and nearly 200 components.
       - Resolved multiple performance and vulnerability issues through cross-team collaboration.
       - Fixed an internal enterprise Spring library's performance degradation related to error caching (again, Caffeine cache) that impacted every application using the library.
       - Influenced engineering patterns and practices through contributions to internal tooling, by better aligning their implementations with industry best practices; e.g. requiring branch protections on critical release branches and avoiding unnecessary re-deployments to development environments.
-      - Designed and led my team in the implementation of a tool adopted by enterprise as the preferred tool for migrating applications to ECS Fargate. This tool reads AWS configurations regardless of the application’s original CI tool and outputs the configurations necessary for the enterprise’s standard CI/CD pipeline (internal).
+      - Designed and led my team in the implementation of a tool adopted by enterprise as the preferred tool for migrating applications to ECS Fargate. This tool reads AWS configurations regardless of the application’s original CI tool and outputs the configurations necessary for the enterprise’s standard CI/CD pipeline (internal), reducing migration effort from 1-4 days to 1-4 _hours_.
       - Led my team of SMEs to support 30+ teams within my organization related to our internal CI/CD pipeline and its plugins, the enterprise-preferred internal Spring library, general AWS guidance, Java/Go/Groovy/Jenkins questions, and other best practices.
       - Analyzed and defined organization guidance for Log4Shell vulnerability and remediation.
       - Mentored multiple engineers, on my team and outside of it.
       - Implemented an OpenRewrite module for various migrations of internal applications, especially in relation to Java 17 and SpringBoot 3.x upgrades forced by the end-of-support of SpringBoot 2.x.
+      - Lead a group of platform engineers within a code transformation delivery system for mass refactoring and vulnerability remediation.
+      - Lead implementation and delivery of multiple company-wide campaigns aimed at increasing stability and security of our internal applications.
+      - Contributed heavily to the adoption of OpenTelemetry, first within my organization, then more broadly to the line-of-business, and finally to the entire company.
     technologies:
       - Java
       - Maven
@@ -89,21 +89,22 @@ experience:
       - Groovy
       - Python
       - Terraform
+      - OpenRewrite
     tools:
       - IntelliJ
       - Docker
       - GitHub
   - from: June 2018
-    to: Present
+    to: March 2020
     title: Founding Member, OpenAPI Generator and OpenAPI Tools
     company: Individual, Open Source
     location: _remote - Richmond, VA_
     bullets:
-      - Inactive since March 2020
-      - Help lead and maintain a community fork of Swagger Codegen
-      - Collaborate with OpenAPI Generator community
-      - Initial implementation of Gradle Plugin for OpenAPI Generator
-      - Ongoing investigation into process improvement (tooling, pipeline, publishing)
+      - Co-founded community fork of Swagger Codegen (where I was a core contributor from 2016-2018) - now adopted by thousands of developers worldwide
+      - Established core architectural patterns and community practices (e.g. issue and pull request templates, user documentation, release processes)
+      - Built initial Gradle Plugin implementation, enabling seamless integration with build pipelines
+      - Led process improvements across tooling, CI/CD pipelines, and artifact publishing
+      - Collaborated with OpenAPI Generator community
     technologies:
       - Java
       - Maven
@@ -123,13 +124,13 @@ experience:
     company: Expedia, Inc.
     location: _remote - Richmond, VA_
     bullets:
-      - Participated in the design and construction of Microservices Architecture for new project(s)
-      - Created reusable developer tools to increase developer productivity (sbt plugin, docker composed network)
-      - Mentored Junior and Senior level developers on best practices, processes, and SOLID principles
-      - Provided process improvement suggestions and strategies for new team construction
-      - Lead refactoring efforts in database migration from MySQL to PostgreSQL
-      - Lead multiple workstreams (Spark Pipeline/DevOps, new API development, legacy API management)
+      - Participated in the design and construction of Microservices Architecture for new AdTech project(s)
+      - Built reusable developer tooling (sbt plugin, Docker compose testing environment) that streamlined local development workflows
+      - Mentored 6+ Junior and Senior level developers on SOLID principles, code review practices, and architectural patterns
+      - Led database migration from MySQL to PostgreSQL, coordinating cross-team efforts and minimizing downtime
+      - Managed multiple parallel workstreams (Spark Pipeline/DevOps, new development of 9 APIs, legacy API management)
       - Team contributed to Spark Structured Streaming distributed data processing pipeline
+      - Drove process improvements for team formation and development workflows
     technologies:
       - Scala
       - SBT
@@ -156,16 +157,14 @@ experience:
     company: Individual, Open Source
     location: _remote - Richmond, VA_
     bullets:
-      - Contributed to project until cofounding the community fork of OpenAPI Generator in 2018
+      - Core contributor to Swagger Codegen, maintaining C# and ASP.NET Core generators until co-founding OpenAPI Generator fork in 2018
+      - Built initial implementations for 4 new generators - Kotlin client (Java/Android), Kotlin server (Ktor), ASP.NET Core server, and Scala server (Finch)
       - Maintained C# client and ASP.NET Core server generators
-      - Collaborated with Swagger Codegen community via issues and pull requests
-      - Provided initial implementation of .swagger-codegen-ignore processing
-      - Bug fixes in areas outside the responsibilities of my generators (Maven Plugin)
       - Contributed alpine-based Docker image, reducing image size from ~700MB to ~200MB
+      - Provided initial implementation of .swagger-codegen-ignore processing
+      - Contributed bug fixes in areas outside the responsibilities of my generators (Maven Plugin)
       - Moderately sized refactoring efforts, requiring distributed coordination with core team and community
-      - Provided initial implementation of Kotlin client (Java/Android) and Kotlin server (ktor framework) generators
-      - Provided initial implementation of ASP.NET Core server generator
-      - Provided initial implementation of Scala server (Finch framework) generator
+      - Actively engaged with community through issue triage and pull request reviews
     technologies:
       - Java
       - Maven
@@ -184,28 +183,21 @@ experience:
     company: Integrated Business Systems, Inc.
     location: _Richmond, VA_
     bullets:
-      - Mentored Junior and Senior level developers on best practices, processes, and SOLID principles
-      - Lead refactoring efforts of Business Intelligence product's presentation layer from tightly coupled and loosely organized MVC/jQuery to a Single Page Application with AngularJS and MVC as a RESTful API
-      - 'Designed and implemented a messaging and external processing framework on top of SQL Server Service Broker (External Activation) to offload numerous long-running processes from ASP.NET web applications (Message Bus). Implementations included: compiling and printing statements, payment processing, triggered database deployments, configuration'
-      - Integrated Hangfire for short, non-essential batch processing both in-proc in ASP.NET and as external self-hosted Windows services
-      - Helped design and lead refactoring efforts to introduce Inversion of Control into an existing multi-layered architecture, enabling the configuration-driven transfer of data through the same domain stack to multiple backend systems (i.e. Adapter Pattern for part of SqlCommand)
-      - Advocated automation testing and provided guidance on testing best practices to improve stability and maintainability of code
-      - Performed software construction and maintenance using ASP.NET MVC, AngularJS, Kendo UI, SQL Server 2008/2012
-      - Drove code quality through training, testing, and awareness
-      - Promoted reusable code via NuGet on an internally accessible repository
-      - Provided guidance in the conversion of my own test helpers into a shareable testing platform
-      - Advocated for process improvements within multiple Scrum teams
+      - Led architectural migration of BI product from monolithic jQuery/MVC to scalable SPA (AngularJS + RESTful APIs), improving performance and maintainability
+      - Designed and implemented SQL Server Service Broker messaging framework (via External Activation) to offload long-running processes (statement generation, payment processing, deployments) from web applications
+      - Introduced Inversion of Control patterns across multi-layered architecture, enabling configuration-driven data flow to multiple backend systems
+      - Mentored junior and senior developers on SOLID principles, testing best practices, and architectural patterns
+      - Integrated Hangfire for batch processing workflows, supporting both in-process and distributed Windows service deployments
+      - Drove code quality initiatives through automated testing advocacy, internal NuGet package development, and team training programs
+      - Championed process improvements and development best practices across engineering organization
     technologies:
       - AngularJS
       - ASP.NET
-      - .NET 3.5
-      - .NET 4.0
-      - .NET 4.5
+      - .NET 3.5-4.5
       - NUnit
       - Windows Forms
       - Web API 2
-      - SQL Server 2008
-      - SQL Server 2012
+      - SQL Server 2008/2012
       - SQL Server Service Broker
       - Hangfire
       - XML
@@ -224,18 +216,16 @@ experience:
     company: Expedia, Inc.
     location: _Bellevue, WA_
     bullets:
-      - Refactored node.js api which acts as a facade for other services
-      - Analyzed performance and memory of node.js/JavaScript
-      - Provided expertise of node.js framework and third-party modules to help implement a solid unit test and functional test bed
-      - Designed maintainable solutions for parameter validation within express.js application
-      - Created reusable automation utilities for maintenance of node.js application (e.g. generate swagger documentation from custom JSDoc comments)
-      - Improved bash scripts used for build and deployment; automatically verify and install dependencies before build, allow for multiple build profiles
-      - Helped with feature improvement and maintenance of now legacy PHP system (API and Frontend)
-      - Drove development and architecture of new REST API and UI using Scala, SBT, Scalatra, and AngularJS
-      - Mentored interns and newer developers
-      - Team master of using and teaching others git
-      - Interviewed numerous mid-level and senior-level candidates for the team
-      - Played a huge role in process improvement (git workflow, code review, peer programming, Scrum processes)
+      - Architected and delivered new REST API and UI using Scala/Scalatra/AngularJS, replacing legacy PHP system
+      - Refactored Node.js facade API for improved performance, implementing comprehensive testing framework and parameter validation (express.js)
+      - Built automation tooling for Node.js applications including Swagger documentation generation from custom JSDoc annotations
+      - Optimized build and deployment pipelines through enhanced bash scripting with dependency verification and multi-profile support
+      - Analyzed and resolved Node.js performance bottlenecks through memory profiling and JavaScript optimization
+      - Provided guidance regarding Node.js framework and third-party modules to help implement a solid unit test and functional test bed
+      - Led engineering process improvements - established git workflows, code review standards, pair programming practices, and Scrum adoption
+      - Mentored interns and junior developers while serving as team's git expert and trainer
+      - Conducted technical interviews for mid-level and senior engineering candidates
+      - Maintained legacy PHP system during transition period, ensuring business continuity
     technologies:
       - AngularJS
       - node.js

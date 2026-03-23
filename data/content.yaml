@@ -9,17 +9,21 @@ title: Sr. Lead Software Engineer
 meta_title: Jim Schubert, Sr. Lead Software Engineer
 meta_description: A well-rounded hands-on senior manager level engineer who has been coding since 1988.
 summary: |
-  I'm a hands-on Senior Lead Software Engineer who thrives on building high-impact teams, 
-  leading complex technical initiatives, and making the tough stuff feel simple. I also like coffee ☕ and emojis.
-
-  I don't just write code — I architect systems that scale and create environments where teams ship confidently.
-  Whether I'm mentoring engineers through their first enterprise deployment, leading organization-wide platform migrations,
-  or untangling legacy systems laden with undocumented complexity, I bring curiosity, humor, and a knack for making breakthroughs feel inevitable.
-  
-  _My mission?_ Helping great engineering teams become exceptional, one elegant solution (and perfectly-timed dad joke) at a time.
-  
-  Always open to connecting with fellow engineers, swapping stories about tough problems and their solutions, 
-  or debating whether tabs or spaces are objectively correct.
+  I'm a hands-on Senior Lead Software Engineer with a track record of building platforms
+  and tooling that multiply team capability at scale. I architect systems, drive
+  cross-organizational migrations, and identify the problems that aren't on anyone's
+  roadmap yet — from redesigning event-driven automation platforms to standardizing
+  container supply chains across thousands of repositories.
+ 
+  I co-founded OpenAPI Generator, now used by thousands of developers worldwide, and
+  continue to build and contribute to open source tooling that reflects my belief that
+  great platforms make other engineers faster and safer. I've recently stepped into a
+  horizontal technical leadership role, working across ~24 engineers and a broad stakeholder
+  network spanning product, program, security, and vendor partnerships.
+ 
+  Outside of work I enjoy music production, BMX, photography, and the occasional
+  live-coding stream. Always happy to connect with engineers trading stories about
+  hard problems and the solutions that eventually stuck.
 
 links:
   - href: https://github.com/jimschubert

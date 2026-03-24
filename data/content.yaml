@@ -7,20 +7,21 @@ title: Sr. Lead Software Engineer
 # Optional: use tagline to display alternate text under your name in sidebar
 #tagline: Sr. Lead Software Engineer
 meta_title: Jim Schubert, Sr. Lead Software Engineer
-meta_description: A well-rounded hands-on senior manager level engineer who has been coding since 1988.
+meta_description: A well-rounded hands-on senior engineer who has been coding since 1988.
+
 summary: |
   I'm a hands-on Senior Lead Software Engineer with a track record of building platforms
   and tooling that multiply team capability at scale. I architect systems, drive
   cross-organizational migrations, and identify the problems that aren't on anyone's
   roadmap yet — from redesigning event-driven automation platforms to standardizing
   container supply chains across thousands of repositories.
- 
+
   I co-founded OpenAPI Generator, now used by thousands of developers worldwide, and
   continue to build and contribute to open source tooling that reflects my belief that
   great platforms make other engineers faster and safer. I've recently stepped into a
   horizontal technical leadership role, working across ~24 engineers and a broad stakeholder
   network spanning product, program, security, and vendor partnerships.
- 
+
   Outside of work I enjoy music production, BMX, photography, and the occasional
   live-coding stream. Always happy to connect with engineers trading stories about
   hard problems and the solutions that eventually stuck.
@@ -42,23 +43,26 @@ links:
 #    title: Development Blog
 #    classes: website
 #    fontawesome: fa-globe
+
 languages:
   - name: English
     # These support markdown, so italicise proficiency
-    proficiency: '*Native*'
+    proficiency: "*Native*"
   - name: Russian
-    proficiency: '*Classroom*'
+    proficiency: "*Classroom*"
+
 interests:
   - Coding
   - Music Production
   - BMX
   - Photography
+
 education:
   - institution: Virginia Commonwealth University
     location: _Richmond, VA_
     degree: B.S. in Information Systems
     graduation_date: May 2009
-    major: '**Application Development**'
+    major: "**Application Development**"
     gpa: 3.98
     honors:
       - Academic Achievement Award, Spring/Fall 2006, Spring 2007
@@ -66,47 +70,48 @@ education:
       - Student of the Year Award, Information Systems, VCU School of Business, April 2009
       - Member, Beta Gamma Sigma International Business Honor Society
       - Member, Phi Kappa Phi Honor Society
-experience:
 
+experience:
   - from: June 2019
     to: Present
     title: Sr. Lead Software Engineer
     company: Redacted (contact for details)
     location: _Richmond, VA_
     bullets:
-      - Contributed to event-driven login/authentication messaging (decommissioned).
-      - Contributed to enterprise-wide enrollments, offering technical expertise in microservices design and implementation.
-      - Drove adoption of shift-left practices across my organization of 30+ engineering teams, and nearly 200 components.
-      - Resolved many performance and vulnerability issues through cross-team collaboration.
-      - Fixed an internal enterprise Spring library's performance degradation related to error caching (Caffeine cache) that impacted every application using the library.
-      - Influenced engineering patterns and practices through contributions to internal tooling, by better aligning their implementations with industry best practices; e.g. requiring branch protections on critical release branches and avoiding unnecessary re-deployments to development environments.
-      - Designed and delivered the enterprise-standard ECS Fargate migration tool, reducing migration effort from 1-4 days to 1-4 _hours_.
-      - Led my team of SMEs to support 30+ teams within my organization related to our internal CI/CD pipeline and its plugins, the enterprise-preferred internal Spring library, general AWS guidance, Java/Go/Groovy/Jenkins questions, and other best practices.
-      - Analyzed and defined organization guidance for Log4Shell vulnerability and remediation.
-      - Mentored multiple engineers, on my team and outside of it.
-      - Implemented an OpenRewrite module for various migrations of internal applications, especially in relation to Java 17 and SpringBoot 3.x upgrades forced by the end-of-support of SpringBoot 2.x.
-      - Lead a group of platform engineers within a code transformation delivery system for mass refactoring and vulnerability remediation.
-      - Lead implementation and delivery of multiple company-wide campaigns aimed at increasing stability and security of our internal applications.
-      - Contributed heavily to the adoption of OpenTelemetry, first within my organization, then more broadly to the line-of-business, and finally to the entire company.
+      - Transitioned from directly managing a 7-person platform team to a horizontal technical leadership role (vacated by a Distinguished Engineer), guiding architecture and platform strategy for ~24 engineers and a 120+ cross-functional stakeholder network.
+      - Redesigned a legacy webhook delivery model into an event-driven AWS architecture (SNS/SQS/Lambda), reducing daily event volume by 97% (200,000 to 5,000) and cutting failure rates by 90% while absorbing 15% higher PR volume. The design was subsequently adopted as the organizational standard.
+      - Authored and open-sourced OpenRewrite Docker recipes to drive a mass migration to hardened distroless images, successfully standardizing supply chains and automating across 3,300+ production repositories, providing white-glove support to ~200 applications..
+      - Eliminated container vulnerabilities across 30-40 teams by standardizing distroless image adoption and resolving CI/CD pipeline gaps, sustaining zero CVEs over rolling 6-month windows.
+      - Diagnosed and resolved a highly complex DNS caching bottleneck across a multi-thousand container deployment, restoring baseline performance after previous mitigation attempts by other senior engineers had failed.
+      - Spearheaded the Spring Boot 2 EOL migration for ~180 APIs by developing custom OpenRewrite recipes (Java 17/Spring Boot 3) and execution scripts, eventually scaling these tools cross-organizationally to empower other lines of business to build their own automated migrations (500+ APIs).
+      - Architected an enterprise-standard ECS Fargate migration platform that enabled self-service adoption, reducing individual team migration effort from 1-4 days to 1-4 hours for 30+ teams.
+      - Drove shift-left security and observability standards across 30+ teams (nearly 200 components) by standardizing OpenTelemetry (CNCF) configurations and publishing comprehensive supply chain workflow documentation, significantly reducing platform support overhead.
+      - Mentored engineers across the organization and served as the primary technical advisor for CI/CD, AWS, and polyglot (Java/Go/Groovy) platform best practices spanning 30+ engineering teams.
+
     technologies:
       - Java
-      - Maven
       - Go
+      - TypeScript
       - Groovy
       - Python
-      - Terraform
+      - Bash
       - OpenRewrite
+      - Terraform
+      - Maven
+      - AWS (SNS/SQS/Lambda/ECS/CloudWatch)
     tools:
       - IntelliJ
       - Docker
       - GitHub
+      - Datadog
+
   - from: June 2018
     to: March 2020
     title: Founding Member, OpenAPI Generator and OpenAPI Tools
     company: Individual, Open Source
     location: _remote - Richmond, VA_
     bullets:
-      - Co-founded community fork of Swagger Codegen (where I was a core contributor from 2016-2018) - now adopted by thousands of developers worldwide
+      - Co-founded community fork of Swagger Codegen (where I was a core contributor from 2016-2018) — now adopted by thousands of developers worldwide
       - Established core architectural patterns and community practices (e.g. issue and pull request templates, user documentation, release processes)
       - Built initial Gradle Plugin implementation, enabling seamless integration with build pipelines
       - Led process improvements across tooling, CI/CD pipelines, and artifact publishing
@@ -124,6 +129,7 @@ experience:
       - IntelliJ
       - Docker
       - GitHub
+
   - from: March 2016
     to: June 2019
     title: Senior Software Engineer
@@ -157,6 +163,7 @@ experience:
       - Jenkins
       - Consul
       - Docker Native
+
   - from: May 2016
     to: June 2018
     title: Contributor, Swagger Codegen Core Team
@@ -164,12 +171,10 @@ experience:
     location: _remote - Richmond, VA_
     bullets:
       - Core contributor to Swagger Codegen, maintaining C# and ASP.NET Core generators until co-founding OpenAPI Generator fork in 2018
-      - Built initial implementations for 4 new generators - Kotlin client (Java/Android), Kotlin server (Ktor), ASP.NET Core server, and Scala server (Finch)
-      - Maintained C# client and ASP.NET Core server generators
+      - Built initial implementations for 4 new generators — Kotlin client (Java/Android), Kotlin server (Ktor), ASP.NET Core server, and Scala server (Finch)
       - Contributed alpine-based Docker image, reducing image size from ~700MB to ~200MB
       - Provided initial implementation of .swagger-codegen-ignore processing
       - Contributed bug fixes in areas outside the responsibilities of my generators (Maven Plugin)
-      - Moderately sized refactoring efforts, requiring distributed coordination with core team and community
       - Actively engaged with community through issue triage and pull request reviews
     technologies:
       - Java
@@ -183,6 +188,7 @@ experience:
       - IntelliJ
       - Docker
       - GitHub
+
   - from: June 2014
     to: March 2016
     title: Senior Systems Analyst / Software Architect
@@ -190,32 +196,24 @@ experience:
     location: _Richmond, VA_
     bullets:
       - Led architectural migration of BI product from monolithic jQuery/MVC to scalable SPA (AngularJS + RESTful APIs), improving performance and maintainability
-      - Designed and implemented SQL Server Service Broker messaging framework (via External Activation) to offload long-running processes (statement generation, payment processing, deployments) from web applications
+      - Designed and implemented SQL Server Service Broker messaging framework (via External Activation) to offload long-running processes from web applications
       - Introduced Inversion of Control patterns across multi-layered architecture, enabling configuration-driven data flow to multiple backend systems
       - Mentored junior and senior developers on SOLID principles, testing best practices, and architectural patterns
-      - Integrated Hangfire for batch processing workflows, supporting both in-process and distributed Windows service deployments
-      - Drove code quality initiatives through automated testing advocacy, internal NuGet package development, and team training programs
       - Championed process improvements and development best practices across engineering organization
     technologies:
       - AngularJS
       - ASP.NET
       - .NET 3.5-4.5
       - NUnit
-      - Windows Forms
       - Web API 2
       - SQL Server 2008/2012
       - SQL Server Service Broker
       - Hangfire
-      - XML
-      - HTML
-      - CSS
       - JavaScript
-      - MSBuild
-      - KendoUI
     tools:
       - Visual Studio
       - TFS
-      - TFSVC
+
   - from: January 2013
     to: June 2014
     title: Software Developer Engineer II
@@ -223,45 +221,26 @@ experience:
     location: _Bellevue, WA_
     bullets:
       - Architected and delivered new REST API and UI using Scala/Scalatra/AngularJS, replacing legacy PHP system
-      - Refactored Node.js facade API for improved performance, implementing comprehensive testing framework and parameter validation (express.js)
+      - Refactored Node.js facade API for improved performance, implementing comprehensive testing framework and parameter validation
       - Built automation tooling for Node.js applications including Swagger documentation generation from custom JSDoc annotations
-      - Optimized build and deployment pipelines through enhanced bash scripting with dependency verification and multi-profile support
-      - Analyzed and resolved Node.js performance bottlenecks through memory profiling and JavaScript optimization
-      - Provided guidance regarding Node.js framework and third-party modules to help implement a solid unit test and functional test bed
-      - Led engineering process improvements - established git workflows, code review standards, pair programming practices, and Scrum adoption
-      - Mentored interns and junior developers while serving as team's git expert and trainer
-      - Conducted technical interviews for mid-level and senior engineering candidates
-      - Maintained legacy PHP system during transition period, ensuring business continuity
+      - Led engineering process improvements — established git workflows, code review standards, pair programming practices, and Scrum adoption
+      - Mentored interns and junior developers; conducted technical interviews for mid-level and senior engineering candidates
     technologies:
       - AngularJS
       - node.js
       - express.js
       - MongoDB
       - bash
-      - CentOS
-      - XML
-      - HTML
-      - CSS
-      - JavaScript
-      - Linux
-      - PHP
-      - Silex
-      - Wordpress
       - Scala
       - Scalatra
       - MySQL
-      - knockout.js
     tools:
       - IntelliJ
       - git
-      - npm
       - AWS
       - Jenkins
-      - Confluence
       - GitHub
-      - Swagger
-      - SBT
-      - Jira Agile
+
   - from: January 2012
     to: January 2013
     title: Software Engineer
@@ -269,91 +248,61 @@ experience:
     location: _remote - Richmond, VA_
     bullets:
       - Member of development team for call center-centric telephony suite, CallRex
-      - Maintained and developed documentation and examples for CallRex SDK using Sandcastle for documentation and code written using C#, ASP.NET, Windows Forms
-      - Performed custom application development on a per customer basis using Windows Forms, ASP.NET, and WCF
       - Created maintenance patches of legacy software using C++, particularly related to VoIP packet processing using SIP, SKINNY (SCCP), and RTP
-      - Created a unit-testing and functional-testing process to integrate into the build using MSBuild 4.0
-      - Created an MSBuild task wrapper around the VIX API to integrate build with VMware Virtual Machines and control full system installation, call bootstrapping (packet playback), and data verification as a means of integration and regression testing
-      - Performed analysis and review of customer support issues which generally involved log parsing, packet analysis using Wireshark, and occasionally analysis of Windows dump files
-      - Regularly interacted with customers to resolve issues and deploy custom applications or patches
-      - Provided an in-depth and expert-level knowledge of C# and ASP.NET in the design process for the conversion of legacy (native C++) code into managed code
-      - Discovered Unicode bug in sip packet header which could corrupt a Windows environment's unmanaged memory at kernel or user space
+      - Discovered Unicode bug in SIP packet header which could corrupt a Windows environment's unmanaged memory at kernel or user space
+      - Created a unit-testing and functional-testing process integrated into the build using MSBuild 4.0
     technologies:
       - C++
       - ASP.NET
       - .NET 3.5
       - Windows Forms
-      - Silverlight
       - WCF
-      - MSTest
       - SQL Server 2008
-      - DB2
-      - XML
-      - HTML
-      - CSS
-      - JavaScript
-      - Linux
-      - MSBuild
     tools:
       - Visual Studio
-      - Subversion
       - Wireshark
-      - Sandcastle
       - VMWare
+
   - from: April 2011
     to: January 2012
     title: Senior Software Engineer (C#/ASP.NET)
     company: Primescape Solutions, Inc.
     location: _Herndon, VA_
     bullets:
-      - Designed and development of software and web applications using Microsoft .NET 3.5 Framework
+      - Designed and developed software and web applications using Microsoft .NET 3.5
       - Created custom, reusable controls and frameworks for reporting on large data sets
-      - Owned configuration, setup, and maintenance of collaborative Drupal CMS for global client organization
-      - 'DevOps: Linux system administration on dedicated server hosting Drupal CMS'
+      - Owned configuration and maintenance of a collaborative Drupal CMS for a global client organization; administered the Linux server hosting the instance
     technologies:
       - ASP.NET
       - .NET 3.5
       - Oracle 9i
-      - NUnit
       - MySQL
-      - PostgresQL
-      - XML
-      - HTML
-      - CSS
+      - PostgreSQL
       - JavaScript
-      - Linux
-      - CentOS
       - Drupal
     tools:
       - Visual Studio
       - Subversion
-      - Toad
+
   - from: October 2010
     to: April 2011
     title: Software Developer Engineer II
     company: Expedia, Inc.
     location: _Bellevue, WA_
     bullets:
-      - Instrumental in the interview process for Senior .NET Software Developer Engineers
-      - 'Researched available technology solutions in a variety of areas: localization, performance monitoring, logging'
-      - 'Team: prepared a demonstration application using ASP.NET MVC 2.0 (Web Forms View Engine)'
-      - 'Team: scalable, high-availability public-facing web application using ASP.NET MVC 3.0 (Razor View Engine)'
-      - Involved in a majority of the construction phase for B2B site
+      - Contributed to construction of a scalable, high-availability public-facing B2B web application using ASP.NET MVC 3.0 (Razor View Engine)
       - Researched and implemented automated UI end-to-end testing using Gallio/MbUnit
+      - Participated in interview process for Senior .NET Software Developer Engineers
     technologies:
       - ASP.NET
       - .NET 3.5
       - SQL Server 2008
       - Gallio/MbUnit
-      - XML
-      - HTML
-      - CSS
       - JavaScript
-      - MSBuild
     tools:
       - Visual Studio
       - Perforce
-      - Confluence
+
   - from: September 2009
     to: November 2010
     title: Consultant / Software & Web Application Developer
@@ -361,93 +310,101 @@ experience:
     location: _Herndon, VA_
     bullets:
       - Performed major enhancements and added functionality to a grants/budget management web application using ASP.NET/C# and Oracle 9i
-      - Upgraded the grants/budget management web application from .NET 1.1 to .NET 3.5 SP1
-      - Complied with coding and security standards for Federal Government client
-      - Designed and developed application architecture and data access components
-      - Interacted directly with Federal Government clients
-      - Involved in entire Software Development Lifecycle
+      - Upgraded application from .NET 1.1 to .NET 3.5 SP1; complied with coding and security standards for Federal Government client
     technologies:
       - ASP.NET
       - .NET 1.1
       - .NET 3.5
       - Oracle 9i
-      - XML
-      - HTML
-      - CSS
-      - JavaScript
     tools:
       - Visual Studio
-      - Visual Source Safe
-      - Toad
+
   - from: September 2008
     to: February 2009
-    title: Intern - Software Developer
+    title: Intern — Software Developer
     company: GE Healthcare
     location: _Richmond, VA_
     bullets:
-      - Interned beginning with Agility Healthcare Solutions, which was acquired by GE Healthcare
-      - Performed bug fixes and application enhancements in an HL7-compliant Rich Internet Application using ASP.NET 3.5 and C#
-      - Worked with development team as part of a mixed Agile and Scrum methodology
-      - Provided feedback on application complexity and usability to team leader
-      - Evaluated build process using CruiseControl.NET, MSBuild, Windows Installer XML Toolset (WiX)
+      - Interned beginning with Agility Healthcare Solutions, which was acquired by GE Healthcare during the engagement
+      - Performed bug fixes and enhancements in an HL7-compliant Rich Internet Application using ASP.NET 3.5 and C#, working within a mixed Agile/Scrum methodology
+      - Evaluated build process using CruiseControl.NET, MSBuild, and WiX
     technologies:
       - ASP.NET
       - .NET 3.5
       - SQL Server 2005
       - Silverlight
-      - XML
-      - HTML
-      - CSS
-      - JavaScript
       - MSBuild
-      - WiX
     tools:
       - Visual Studio
       - Subversion
+
 projects:
   summary: |
-    I have been active in Open Source officially since 2008, although I dabbled in coding for 20 years before that.
-    College awoke an interest in me to share my code and creations with others.
-    
-    The following is only a subset of the 150+ open source projects I have created.
+    I've been active in open source since 2008 across 150+ projects, with a focus on
+    developer tooling, automation, and platform infrastructure. The following is a
+    representative subset.
   list:
-    - href: https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna
-      title: New Tab Redirect!
-      description: A Google Chrome extension which allows the user to override the browser's new tab page.
+    - href: https://github.com/jimschubert/rewrite-docker
+      title: jimschubert/rewrite-docker
+      description: |
+        OpenRewrite recipes for Docker and container image migrations. Started as a
+        personal project (live-streamed on Twitch), subsequently adopted internally
+        at work and used to migrate 3,300+ production repositories to distroless
+        hardened images. Basis for a proposed contribution to the OpenRewrite project
+        in 2025.
+
+    - href: https://github.com/jimschubert/docked
+      title: jimschubert/docked
+      description:
+        A Dockerfile linting tool written in Go, built to surface common
+        Dockerfile issues and best practices during development — before they become
+        production vulnerabilities.
+
+    - href: https://github.com/jimschubert/labeler-action
+      title: jimschubert/labeler-action
+      description:
+        A GitHub Action for automatically applying labels to issues and
+        pull requests based on title/description patterns. Written in Go; paired with
+        the [jimschubert/labeler](https://github.com/jimschubert/labeler) CLI/library.
+
     - href: https://github.com/jimschubert/changelog
       title: jimschubert/changelog
       description: |
-        A CLI written in Go which allows for customizable changelog generation from local or remote (GitHub) repositories.
-        I also distribute this tool as a GitHub Action called [beast-changelog](https://github.com/marketplace/actions/beast-changelog).
-    - href: https://github.com/jimschubert/answer
-      title: jimschubert/answer
-      description: A Go module providing "bubbles" (bubbletea models) which provide terminal interface functionality to replace the deprecated github.com/AlecAivazis/survey.
-    - href: https://github.com/jimschubert/venom
-      title: jimschubert/venom
-      description: |
-        A documentation command for your CLIs built on top of cobra. I wrote this to output proper documentation for
-        commands with `/` in their names. I had [contributed a fix to cobra](https://github.com/spf13/cobra/pull/1675)
-        and waited a year without merge before implementing my own library to solve the problem.
+        A CLI written in Go which allows for customizable changelog generation from
+        local or remote (GitHub) repositories. Also distributed as a GitHub Action:
+        [beast-changelog](https://github.com/marketplace/actions/beast-changelog).
+
+    - href: https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna
+      title: New Tab Redirect!
+      description:
+        A Google Chrome extension which allows the user to override the
+        browser's new tab page.
+
     - href: https://github.com/jimschubert/intellij-openapi-generator
       title: OpenAPI Generator Plugin
-      description: An extension for Jetbrains based IDEs which provides a GUI wrapper around OpenAPI Generator.
+      description:
+        An extension for Jetbrains based IDEs which provides a GUI wrapper
+        around OpenAPI Generator.
+
 publications:
   summary: I extend my dedication to developer productivity into writing and performing technical reviews of written works.
   list:
     - href: https://jimschubert.gumroad.com/l/Ifhbf
-      title: '**Your First App: Node.js** by Jim Schubert'
+      title: "**Your First App: Node.js** by Jim Schubert"
       description: I self published this book about the development life cycle of a full-stack node.js application, using Express/Angular/MongoDB.
+
     - href: https://www.packtpub.com/product/deploying-nodejs/9781783981403
-      title: '**Deploying Node.js** by Sandro Pasquali'
+      title: "**Deploying Node.js** by Sandro Pasquali"
       description: I was a technical reviewer for this book, which focused on the building, testing, deploying, monitoring, and maintenance of node.js applications.
+
 skills:
-  summary: ''
+  summary: ""
   list:
     - name: Mentoring
       rank: 100
     - name: OpenSource
       rank: 100
-    - name: Engineering Management
+    - name: Engineering Leadership
       rank: 95
     - name: Architecture + Design
       rank: 95
@@ -455,7 +412,7 @@ skills:
       rank: 95
     - name: Java
       rank: 95
-    - name: Docker
+    - name: Docker / Container Security
       rank: 95
     - name: Testing and Automation
       rank: 95
@@ -463,19 +420,25 @@ skills:
       rank: 95
     - name: REST / OpenAPI
       rank: 95
-    - name: Observability (OpenTelemetry)
+    - name: Supply Chain Security
+      rank: 90
+    - name: Observability (OpenTelemetry/CNCF)
       rank: 90
     - name: Microservices
       rank: 90
-    - name: Security / Vulnerability
+    - name: Event-Driven Architecture
       rank: 90
-    - name: JavaScript Ecosystem
+    - name: SLO/SLI & Reliability Engineering
       rank: 90
     - name: OpenRewrite
-      rank: 85
+      rank: 90
     - name: AWS Cloud / Infrastructure
       rank: 85
     - name: CI/CD-related
+      rank: 85
+    - name: JavaScript Ecosystem
+      rank: 85
+    - name: Security / Vulnerability Management
       rank: 85
     - name: RDMS
       rank: 80
@@ -483,7 +446,5 @@ skills:
       rank: 75
     - name: Other Languages
       rank: 75
-    - name: PHP
-      rank: 40
     - name: Getting things done
       rank: 100

@@ -1,6 +1,6 @@
 title: Jim Schubert
 baseURL: https://jimschubert.dev
-languageCode: en-us
+locale: en-us
 defaultContentLanguage: en
 
 # https://gohugo.io/templates/robots/

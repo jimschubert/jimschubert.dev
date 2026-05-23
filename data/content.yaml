@@ -345,7 +345,7 @@ projects:
     representative subset.
   list:
     - href: https://github.com/jimschubert/mnemonic
-      name: jimschubert/mnemonic
+      title: jimschubert/mnemonic
       description: |
         A local MCP server which gives LLM coding agents a shared memory layer 
         for retrieving and reinforcing relevant project knowledge, reducing reliance on 
@@ -358,7 +358,7 @@ projects:
         all self-contained within the binary.
 
     - href: https://github.com/jimschubert/rumor
-      name: jimschubert/rumor
+      title: jimschubert/rumor
       description: |
         Lightweight gRPC and HTTP/JSON mock server which allows for rapid API mocking.
         Supports generating realistic datasets from simplified or standard JSON Schema definitions.

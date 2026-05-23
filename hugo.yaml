@@ -11,6 +11,19 @@ disableKinds: ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 theme: github.com/jimschubert/jimschubert-resume
 params:
   educationMain: true
+  backgroundColor: "#eceff2"
+  surfaceColor: "#f5f6f8"
+  surfaceMutedColor: "#eef1f4"
+  borderColor: "#d7dde3"
+  sidebarBackgroundColor: "#26282b"
+  sidebarDividerColor: "#3a3d42"
+  sidebarHeaderColor: "#6f767e"
+  sidebarIconColor: "#1D9E75"
+  sidebarMutedColor: "#8f969e"
+  sidebarBodyColor: "#bcc2c8"
+  sidebarEmphasisColor: "#d8dde2"
+  sidebarStrongColor: "#eef2f5"
+  tagBackground: "#32353a"
   titles:
     experiences: Experience
     summary: Summary

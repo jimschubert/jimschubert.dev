@@ -1,0 +1,28 @@
+{{- with hugo.Data.content.publications -}}
+<div class="main__divider" role="separator"></div>
+<section class="main__section" aria-label="Publications">
+  <h2 class="main__section-label">{{ $.Site.Params.titles.publications | default "Publications" }}</h2>
+  {{- with hugo.Data.content.publications_summary -}}
+  <div class="main__prose">
+    {{- . | markdownify -}}
+  </div>
+  {{- end -}}
+  {{- range . -}}
+  <article class="publication__entry">
+    <div class="publication__header">
+      {{- if .url -}}
+      <a class="publication__title" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+      {{- else -}}
+      <span class="publication__title">{{ .title }}</span>
+      {{- end -}}
+      {{- with .date -}}
+      <span class="publication__date">{{ . }}</span>
+      {{- end -}}
+    </div>
+    {{- with .description -}}
+    <div class="publication__desc">{{ . | markdownify }}</div>
+    {{- end -}}
+  </article>
+  {{- end -}}
+</section>
+{{- end -}}

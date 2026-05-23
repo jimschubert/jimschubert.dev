@@ -1,0 +1,25 @@
+{{- with hugo.Data.content.opensource -}}
+<div class="main__divider" role="separator"></div>
+<section class="main__section" aria-label="Open source">
+  <h2 class="main__section-label">{{ $.Site.Params.titles.opensource | default "Open source" }}</h2>
+  {{- with hugo.Data.content.opensource_summary -}}
+  <div class="main__prose">
+    {{- . | markdownify -}}
+  </div>
+  {{- end -}}
+  <ul class="oss__grid" role="list">
+    {{- range . -}}
+    <li class="oss__card">
+      {{- if .url -}}
+      <a class="oss__card-name" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>
+      {{- else -}}
+      <span class="oss__card-name">{{ .name }}</span>
+      {{- end -}}
+      {{- with .description -}}
+      <div class="oss__card-desc">{{ . | markdownify }}</div>
+      {{- end -}}
+    </li>
+    {{- end -}}
+  </ul>
+</section>
+{{- end -}}

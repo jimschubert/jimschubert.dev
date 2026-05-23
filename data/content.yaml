@@ -1,15 +1,19 @@
-full_name: Jim Schubert
-phone:
-  home: ""
-  cell: ""
-email: james.schubert@gmail.com
-title: Sr. Lead Software Engineer
-# Optional: use tagline to display alternate text under your name in sidebar
-#tagline: Sr. Lead Software Engineer
-meta_title: Jim Schubert, Sr. Lead Software Engineer
+profile:
+  name: Jim Schubert
+  title: Sr. Lead Software Engineer
+  email: james.schubert@gmail.com
+  links:
+    - icon: ti-brand-github
+      label: github/jimschubert
+      url: https://github.com/jimschubert
+    - icon: ti-brand-github
+      label: This resume template
+      url: http://github.com/jimschubert/jimschubert.dev
+    - icon: ti-brand-stackoverflow
+      label: StackOverflow Profile
+      url: http://bit.ly/JimSchubert-SO
 meta_description: A well-rounded hands-on senior engineer who has been coding since 1988.
-
-summary: |
+summary: |-
   I'm a hands-on Senior Lead Software Engineer with a track record of building platforms
   and tooling that multiply team capability at scale. I architect systems, drive
   cross-organizational migrations, and identify the problems that aren't on anyone's
@@ -25,59 +29,13 @@ summary: |
   Outside of work I enjoy music production, BMX, photography, and the occasional
   live-coding stream. Always happy to connect with engineers trading stories about
   hard problems and the solutions that eventually stuck.
-
-links:
-  - href: https://github.com/jimschubert
-    title: github/jimschubert
-    classes: github
-    fontawesome: fa-github
-  - href: http://github.com/jimschubert/jimschubert.dev
-    title: This resume template
-    classes: github
-    fontawesome: fa-github
-  - href: http://bit.ly/JimSchubert-SO
-    title: StackOverflow Profile
-    classes: website
-    fontawesome: fa-stack-overflow
-#  - href: http://www.ipreferjim.com
-#    title: Development Blog
-#    classes: website
-#    fontawesome: fa-globe
-
-languages:
-  - name: English
-    # These support markdown, so italicise proficiency
-    proficiency: "*Native*"
-  - name: Russian
-    proficiency: "*Classroom*"
-
-interests:
-  - Coding
-  - Music Production
-  - BMX
-  - Photography
-
-education:
-  - institution: Virginia Commonwealth University
-    location: _Richmond, VA_
-    degree: B.S. in Information Systems
-    graduation_date: May 2009
-    major: "**Application Development**"
-    gpa: 3.98
-    honors:
-      - Academic Achievement Award, Spring/Fall 2006, Spring 2007
-      - William O. Edwards Scholarship for Merit, 2007-2008, 2008-2009
-      - Student of the Year Award, Information Systems, VCU School of Business, April 2009
-      - Member, Beta Gamma Sigma International Business Honor Society
-      - Member, Phi Kappa Phi Honor Society
-
-experience:
-  - from: June 2019
-    to: Present
-    title: Sr. Lead Software Engineer
+experiences:
+  - title: Sr. Lead Software Engineer
     company: Redacted (contact for details)
-    location: _Richmond, VA_
-    bullets:
+    location: Richmond, VA
+    start: June 2019
+    end: Present
+    highlights:
       - Transitioned from directly managing a 7-person platform team to a horizontal technical leadership role (vacated by a Distinguished Engineer), guiding architecture and platform strategy for ~24 engineers and a 120+ cross-functional stakeholder network.
       - Redesigned a legacy webhook delivery model into an event-driven AWS architecture (SNS/SQS/Lambda), reducing daily event volume by 97% (200,000 to 5,000) and cutting failure rates by 90% while absorbing 15% higher PR volume. The design was subsequently adopted as the organizational standard.
       - Authored and open-sourced OpenRewrite Docker recipes to drive a mass migration to hardened distroless images, successfully standardizing supply chains and automating across 3,300+ production repositories, providing white-glove support to ~200 applications..
@@ -87,55 +45,23 @@ experience:
       - Architected an enterprise-standard ECS Fargate migration platform that enabled self-service adoption, reducing individual team migration effort from 1-4 days to 1-4 hours for 30+ teams.
       - Drove shift-left security and observability standards across 30+ teams (nearly 200 components) by standardizing OpenTelemetry (CNCF) configurations and publishing comprehensive supply chain workflow documentation, significantly reducing platform support overhead.
       - Mentored engineers across the organization and served as the primary technical advisor for CI/CD, AWS, and polyglot (Java/Go/Groovy) platform best practices spanning 30+ engineering teams.
-
-    technologies:
-      - Java
-      - Go
-      - TypeScript
-      - Groovy
-      - Python
-      - Bash
-      - OpenRewrite
-      - Terraform
-      - Maven
-      - AWS (SNS/SQS/Lambda/ECS/CloudWatch)
-    tools:
-      - IntelliJ
-      - Docker
-      - GitHub
-      - Datadog
-
-  - from: June 2018
-    to: March 2020
-    title: Founding Member, OpenAPI Generator and OpenAPI Tools
+  - title: Founding Member, OpenAPI Generator and OpenAPI Tools
     company: Individual, Open Source
-    location: _remote - Richmond, VA_
-    bullets:
+    location: remote - Richmond, VA
+    start: June 2018
+    end: March 2020
+    highlights:
       - Co-founded community fork of Swagger Codegen (where I was a core contributor from 2016-2018) — now adopted by thousands of developers worldwide
       - Established core architectural patterns and community practices (e.g. issue and pull request templates, user documentation, release processes)
       - Built initial Gradle Plugin implementation, enabling seamless integration with build pipelines
       - Led process improvements across tooling, CI/CD pipelines, and artifact publishing
       - Collaborated with OpenAPI Generator community
-    technologies:
-      - Java
-      - Maven
-      - C#
-      - ASP.NET Core
-      - TestNG
-      - Scala
-      - Kotlin
-      - Gradle
-    tools:
-      - IntelliJ
-      - Docker
-      - GitHub
-
-  - from: March 2016
-    to: June 2019
-    title: Senior Software Engineer
+  - title: Senior Software Engineer
     company: Expedia, Inc.
-    location: _remote - Richmond, VA_
-    bullets:
+    location: remote - Richmond, VA
+    start: March 2016
+    end: June 2019
+    highlights:
       - Participated in the design and construction of Microservices Architecture for new AdTech project(s)
       - Built reusable developer tooling (sbt plugin, Docker compose testing environment) that streamlined local development workflows
       - Mentored 6+ Junior and Senior level developers on SOLID principles, code review practices, and architectural patterns
@@ -143,327 +69,239 @@ experience:
       - Managed multiple parallel workstreams (Spark Pipeline/DevOps, new development of 9 APIs, legacy API management)
       - Team contributed to Spark Structured Streaming distributed data processing pipeline
       - Drove process improvements for team formation and development workflows
-    technologies:
-      - Scala
-      - SBT
-      - Consul
-      - Redis
-      - Finagle
-      - Finatra
-      - Gradle
-      - ReactJS
-      - Docker
-      - MySQL
-      - AWS
-      - Kotlin
-      - PostgreSQL
-      - Spark
-    tools:
-      - IntelliJ
-      - Jenkins
-      - Consul
-      - Docker Native
-
-  - from: May 2016
-    to: June 2018
-    title: Contributor, Swagger Codegen Core Team
+  - title: Contributor, Swagger Codegen Core Team
     company: Individual, Open Source
-    location: _remote - Richmond, VA_
-    bullets:
+    location: remote - Richmond, VA
+    start: May 2016
+    end: June 2018
+    highlights:
       - Core contributor to Swagger Codegen, maintaining C# and ASP.NET Core generators until co-founding OpenAPI Generator fork in 2018
       - Built initial implementations for 4 new generators — Kotlin client (Java/Android), Kotlin server (Ktor), ASP.NET Core server, and Scala server (Finch)
       - Contributed alpine-based Docker image, reducing image size from ~700MB to ~200MB
       - Provided initial implementation of .swagger-codegen-ignore processing
       - Contributed bug fixes in areas outside the responsibilities of my generators (Maven Plugin)
       - Actively engaged with community through issue triage and pull request reviews
-    technologies:
-      - Java
-      - Maven
-      - C#
-      - ASP.NET Core
-      - TestNG
-      - Scala
-      - Kotlin
-    tools:
-      - IntelliJ
-      - Docker
-      - GitHub
-
-  - from: June 2014
-    to: March 2016
-    title: Senior Systems Analyst / Software Architect
+  - title: Senior Systems Analyst / Software Architect
     company: Integrated Business Systems, Inc.
-    location: _Richmond, VA_
-    bullets:
+    location: Richmond, VA
+    start: June 2014
+    end: March 2016
+    highlights:
       - Led architectural migration of BI product from monolithic jQuery/MVC to scalable SPA (AngularJS + RESTful APIs), improving performance and maintainability
       - Designed and implemented SQL Server Service Broker messaging framework (via External Activation) to offload long-running processes from web applications
       - Introduced Inversion of Control patterns across multi-layered architecture, enabling configuration-driven data flow to multiple backend systems
       - Mentored junior and senior developers on SOLID principles, testing best practices, and architectural patterns
       - Championed process improvements and development best practices across engineering organization
-    technologies:
-      - AngularJS
-      - ASP.NET
-      - .NET 3.5-4.5
-      - NUnit
-      - Web API 2
-      - SQL Server 2008/2012
-      - SQL Server Service Broker
-      - Hangfire
-      - JavaScript
-    tools:
-      - Visual Studio
-      - TFS
-
-  - from: January 2013
-    to: June 2014
-    title: Software Developer Engineer II
+  - title: Software Developer Engineer II
     company: Expedia, Inc.
-    location: _Bellevue, WA_
-    bullets:
+    location: Bellevue, WA
+    start: January 2013
+    end: June 2014
+    highlights:
       - Architected and delivered new REST API and UI using Scala/Scalatra/AngularJS, replacing legacy PHP system
       - Refactored Node.js facade API for improved performance, implementing comprehensive testing framework and parameter validation
       - Built automation tooling for Node.js applications including Swagger documentation generation from custom JSDoc annotations
       - Led engineering process improvements — established git workflows, code review standards, pair programming practices, and Scrum adoption
       - Mentored interns and junior developers; conducted technical interviews for mid-level and senior engineering candidates
-    technologies:
-      - AngularJS
-      - node.js
-      - express.js
-      - MongoDB
-      - bash
-      - Scala
-      - Scalatra
-      - MySQL
-    tools:
-      - IntelliJ
-      - git
-      - AWS
-      - Jenkins
-      - GitHub
-
-  - from: January 2012
-    to: January 2013
-    title: Software Engineer
+  - title: Software Engineer
     company: Enghouse Interactive
-    location: _remote - Richmond, VA_
-    bullets:
+    location: remote - Richmond, VA
+    start: January 2012
+    end: January 2013
+    highlights:
       - Member of development team for call center-centric telephony suite, CallRex
       - Created maintenance patches of legacy software using C++, particularly related to VoIP packet processing using SIP, SKINNY (SCCP), and RTP
       - Discovered Unicode bug in SIP packet header which could corrupt a Windows environment's unmanaged memory at kernel or user space
       - Created a unit-testing and functional-testing process integrated into the build using MSBuild 4.0
-    technologies:
-      - C++
-      - ASP.NET
-      - .NET 3.5
-      - Windows Forms
-      - WCF
-      - SQL Server 2008
-    tools:
-      - Visual Studio
-      - Wireshark
-      - VMWare
-
-  - from: April 2011
-    to: January 2012
-    title: Senior Software Engineer (C#/ASP.NET)
+  - title: Senior Software Engineer (C#/ASP.NET)
     company: Primescape Solutions, Inc.
-    location: _Herndon, VA_
-    bullets:
+    location: Herndon, VA
+    start: April 2011
+    end: January 2012
+    highlights:
       - Designed and developed software and web applications using Microsoft .NET 3.5
       - Created custom, reusable controls and frameworks for reporting on large data sets
       - Owned configuration and maintenance of a collaborative Drupal CMS for a global client organization; administered the Linux server hosting the instance
-    technologies:
-      - ASP.NET
-      - .NET 3.5
-      - Oracle 9i
-      - MySQL
-      - PostgreSQL
-      - JavaScript
-      - Drupal
-    tools:
-      - Visual Studio
-      - Subversion
-
-  - from: October 2010
-    to: April 2011
-    title: Software Developer Engineer II
+  - title: Software Developer Engineer II
     company: Expedia, Inc.
-    location: _Bellevue, WA_
-    bullets:
+    location: Bellevue, WA
+    start: October 2010
+    end: April 2011
+    highlights:
       - Contributed to construction of a scalable, high-availability public-facing B2B web application using ASP.NET MVC 3.0 (Razor View Engine)
       - Researched and implemented automated UI end-to-end testing using Gallio/MbUnit
       - Participated in interview process for Senior .NET Software Developer Engineers
-    technologies:
-      - ASP.NET
-      - .NET 3.5
-      - SQL Server 2008
-      - Gallio/MbUnit
-      - JavaScript
-    tools:
-      - Visual Studio
-      - Perforce
-
-  - from: September 2009
-    to: November 2010
-    title: Consultant / Software & Web Application Developer
+  - title: Consultant / Software & Web Application Developer
     company: Primescape Solutions, Inc.
-    location: _Herndon, VA_
-    bullets:
+    location: Herndon, VA
+    start: September 2009
+    end: November 2010
+    highlights:
       - Performed major enhancements and added functionality to a grants/budget management web application using ASP.NET/C# and Oracle 9i
       - Upgraded application from .NET 1.1 to .NET 3.5 SP1; complied with coding and security standards for Federal Government client
-    technologies:
-      - ASP.NET
-      - .NET 1.1
-      - .NET 3.5
-      - Oracle 9i
-    tools:
-      - Visual Studio
-
-  - from: September 2008
-    to: February 2009
-    title: Intern — Software Developer
+  - title: Intern — Software Developer
     company: GE Healthcare
-    location: _Richmond, VA_
-    bullets:
+    location: Richmond, VA
+    start: September 2008
+    end: February 2009
+    highlights:
       - Interned beginning with Agility Healthcare Solutions, which was acquired by GE Healthcare during the engagement
       - Performed bug fixes and enhancements in an HL7-compliant Rich Internet Application using ASP.NET 3.5 and C#, working within a mixed Agile/Scrum methodology
       - Evaluated build process using CruiseControl.NET, MSBuild, and WiX
-    technologies:
-      - ASP.NET
-      - .NET 3.5
-      - SQL Server 2005
-      - Silverlight
-      - MSBuild
-    tools:
-      - Visual Studio
-      - Subversion
-
-projects:
-  summary: |
-    I've been active in open source since 2008 across 150+ projects, with a focus on
-    developer tooling, automation, and platform infrastructure. The following is a
-    representative subset.
-  list:
-    - href: https://github.com/jimschubert/mnemonic
-      title: jimschubert/mnemonic
-      description: |
-        A local MCP server which gives LLM coding agents a shared memory layer 
-        for retrieving and reinforcing relevant project knowledge, reducing reliance on 
-        bloated static instruction files through scoped storage and semantic retrieval.
-
-        As a local MCP server, this allows all knowledge to be shared across all agents.
-
-        Supports file-based YAML storage for version-controllable memory. Also supports
-        sqlite with [vec1](https://sqlite.org/vec1/doc/trunk/doc/vec1.md) for heavier knowledge bases, 
-        all self-contained within the binary.
-
-    - href: https://github.com/jimschubert/rumor
-      title: jimschubert/rumor
-      description: |
-        Lightweight gRPC and HTTP/JSON mock server which allows for rapid API mocking.
-        Supports generating realistic datasets from simplified or standard JSON Schema definitions.
-
-    - href: https://github.com/jimschubert/rewrite-docker
-      title: jimschubert/rewrite-docker
-      description: |
-        OpenRewrite recipes for Docker and container image migrations. Started as a
-        personal project (live-streamed on Twitch), subsequently adopted internally
-        at work and used to migrate 3,300+ production repositories to distroless
-        hardened images. Basis for a proposed contribution to the OpenRewrite project
-        in 2025.
-
-    - href: https://github.com/jimschubert/docked
-      title: jimschubert/docked
-      description:
-        A Dockerfile linting tool written in Go, built to surface common
-        Dockerfile issues and best practices during development — before they become
-        production vulnerabilities.
-
-    - href: https://github.com/jimschubert/labeler-action
-      title: jimschubert/labeler-action
-      description:
-        A GitHub Action for automatically applying labels to issues and
-        pull requests based on title/description patterns. Written in Go; paired with
-        the [jimschubert/labeler](https://github.com/jimschubert/labeler) CLI/library.
-
-    - href: https://github.com/jimschubert/changelog
-      title: jimschubert/changelog
-      description: |
-        A CLI written in Go which allows for customizable changelog generation from
-        local or remote (GitHub) repositories. Also distributed as a GitHub Action:
-        [beast-changelog](https://github.com/marketplace/actions/beast-changelog).
-
-    - href: https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna
-      title: New Tab Redirect!
-      description:
-        A Google Chrome extension which allows the user to override the
-        browser's new tab page.
-
-    - href: https://github.com/jimschubert/intellij-openapi-generator
-      title: OpenAPI Generator Plugin
-      description:
-        An extension for Jetbrains based IDEs which provides a GUI wrapper
-        around OpenAPI Generator.
-
-publications:
-  summary: I extend my dedication to developer productivity into writing and performing technical reviews of written works.
-  list:
-    - href: https://jimschubert.gumroad.com/l/Ifhbf
-      title: "**Your First App: Node.js** by Jim Schubert"
-      description: I self published this book about the development life cycle of a full-stack node.js application, using Express/Angular/MongoDB.
-
-    - href: https://www.packtpub.com/product/deploying-nodejs/9781783981403
-      title: "**Deploying Node.js** by Sandro Pasquali"
-      description: I was a technical reviewer for this book, which focused on the building, testing, deploying, monitoring, and maintenance of node.js applications.
-
+opensource_summary: |-
+  I've been active in open source since 2008 across 150+ projects, with a focus on
+  developer tooling, automation, and platform infrastructure. The following is a
+  representative subset.
+opensource:
+  - name: jimschubert/mnemonic
+    description: |-
+      A local MCP server that gives LLM coding agents shared memory for project
+      knowledge via scoped storage and semantic retrieval. Supports file-based YAML memory and sqlite with
+      [vec1](https://sqlite.org/vec1/doc/trunk/doc/vec1.md), all self-contained
+      in the binary.
+    url: https://github.com/jimschubert/mnemonic
+  - name: jimschubert/rumor
+    description: |-
+      Lightweight gRPC and HTTP/JSON mock server which allows for rapid API mocking.
+      Supports generating realistic datasets from simplified or standard JSON Schema definitions.
+    url: https://github.com/jimschubert/rumor
+  - name: jimschubert/spray
+    description: |-
+      A DSL tool that turns .stencil files into API-focused artifacts, streamlining the creation of reusable request/response definitions.
+      Designed to help developers generate polished, production-ready API assets quickly and consistently.
+    url: https://github.com/jimschubert/spray
+  - name: jimschubert/rewrite-docker
+    description: |-
+      OpenRewrite recipes for Docker/container image migrations. Began as a personal
+      Twitch project, then was adopted at work to migrate 3,300+ production repos
+      to hardened distroless images. Basis for a proposed OpenRewrite contribution
+      in 2025.
+    url: https://github.com/jimschubert/rewrite-docker
+  - name: jimschubert/docked
+    description: A Dockerfile linting tool written in Go, built to surface common Dockerfile issues and best practices during development — before they become production vulnerabilities.
+    url: https://github.com/jimschubert/docked
+  - name: jimschubert/labeler-action
+    description: |-
+      A GitHub Action for automatically applying labels to issues and pull requests based on title/description patterns.
+      Written in Go; built upon [jimschubert/labeler](https://github.com/jimschubert/labeler).
+    url: https://github.com/jimschubert/labeler-action
+  - name: jimschubert/changelog
+    description: |-
+      A CLI written in Go which allows for customizable changelog generation from
+      local or remote (GitHub) repositories. Also distributed as a GitHub Action:
+      [beast-changelog](https://github.com/marketplace/actions/beast-changelog).
+    url: https://github.com/jimschubert/changelog
+  - name: jimschubert/beast-changelog-action
+    description: |-
+      A GitHub Action for changelog generation to keep release notes consistent and up to date with no manual effort.
+      Written in Go; built upon [jimschubert/changelog](https://github.com/jimschubert/changelog).
+    url: https://github.com/jimschubert/beast-changelog-action
+  - name: New Tab Redirect!
+    description: A Google Chrome extension which allows the user to override the browser's new tab page.
+    url: https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna
+  - name: OpenAPI Generator Plugin
+    description: An extension for Jetbrains based IDEs which provides a GUI wrapper around OpenAPI Generator.
+    url: https://github.com/jimschubert/intellij-openapi-generator
+education:
+  - degree: B.S. in Information Systems
+    institution: Virginia Commonwealth University
+    concentration: Application Development
+    gpa: "3.98"
+    date: May 2009
+    honors:
+      - Academic Achievement Award, Spring/Fall 2006, Spring 2007
+      - William O. Edwards Scholarship for Merit, 2007-2008, 2008-2009
+      - Student of the Year Award, Information Systems, VCU School of Business, April 2009
+      - Member, Beta Gamma Sigma International Business Honor Society
+      - Member, Phi Kappa Phi Honor Society
+languages:
+  - name: English
+    level: Native
+  - name: Russian
+    level: Classroom
+interests:
+  - Coding
+  - Music Production
+  - BMX
+  - Photography
 skills:
-  summary: ""
-  list:
-    - name: Mentoring
-      rank: 100
-    - name: OpenSource
-      rank: 100
-    - name: Engineering Leadership
-      rank: 95
-    - name: Architecture + Design
-      rank: 95
-    - name: Go ("Golang")
-      rank: 95
-    - name: Java
-      rank: 95
-    - name: Docker / Container Security
-      rank: 95
-    - name: Testing and Automation
-      rank: 95
-    - name: Performance Optimization
-      rank: 95
-    - name: REST / OpenAPI
-      rank: 95
-    - name: Supply Chain Security
-      rank: 90
-    - name: Observability (OpenTelemetry/CNCF)
-      rank: 90
-    - name: Microservices
-      rank: 90
-    - name: Event-Driven Architecture
-      rank: 90
-    - name: SLO/SLI & Reliability Engineering
-      rank: 90
-    - name: OpenRewrite
-      rank: 90
-    - name: AWS Cloud / Infrastructure
-      rank: 85
-    - name: CI/CD-related
-      rank: 85
-    - name: JavaScript Ecosystem
-      rank: 85
-    - name: Security / Vulnerability Management
-      rank: 85
-    - name: RDMS
-      rank: 80
-    - name: Other JVM
-      rank: 75
-    - name: Other Languages
-      rank: 75
-    - name: Getting things done
-      rank: 100
+  - name: Mentoring
+    percent: 100
+    level: Expert
+  - name: OpenSource
+    percent: 100
+    level: Expert
+  - name: Engineering Leadership
+    percent: 95
+    level: Expert
+  - name: Architecture + Design
+    percent: 95
+    level: Expert
+  - name: Go ("Golang")
+    percent: 95
+    level: Expert
+  - name: Java
+    percent: 95
+    level: Expert
+  - name: Docker / Container Security
+    percent: 95
+    level: Expert
+  - name: Testing and Automation
+    percent: 95
+    level: Expert
+  - name: Performance Optimization
+    percent: 95
+    level: Expert
+  - name: REST / OpenAPI
+    percent: 95
+    level: Expert
+  - name: Supply Chain Security
+    percent: 90
+    level: Advanced
+  - name: Observability (OpenTelemetry/CNCF)
+    percent: 90
+    level: Advanced
+  - name: Microservices
+    percent: 90
+    level: Advanced
+  - name: Event-Driven Architecture
+    percent: 90
+    level: Advanced
+  - name: SLO/SLI & Reliability Engineering
+    percent: 90
+    level: Advanced
+  - name: OpenRewrite
+    percent: 90
+    level: Advanced
+  - name: AWS Cloud / Infrastructure
+    percent: 85
+    level: Advanced
+  - name: CI/CD-related
+    percent: 85
+    level: Advanced
+  - name: JavaScript Ecosystem
+    percent: 85
+    level: Advanced
+  - name: Security / Vulnerability Management
+    percent: 85
+    level: Advanced
+  - name: RDMS
+    percent: 80
+    level: Proficient
+  - name: Other JVM
+    percent: 75
+    level: Proficient
+  - name: Other Languages
+    percent: 75
+    level: Proficient
+  - name: Getting things done
+    percent: 100
+    level: Expert
+publications_summary: I extend my dedication to developer productivity into writing and performing technical reviews of written works.
+publications:
+  - title: 'Your First App: Node.js by Jim Schubert'
+    url: https://jimschubert.gumroad.com/l/Ifhbf
+    description: I self published this book about the development life cycle of a full-stack node.js application, using Express/Angular/MongoDB.
+  - title: Deploying Node.js by Sandro Pasquali
+    url: https://www.packtpub.com/product/deploying-nodejs/9781783981403
+    description: I was a technical reviewer for this book, which focused on the building, testing, deploying, monitoring, and maintenance of node.js applications.

@@ -1,16 +1,20 @@
 # Jim Schubert's Resume
 
-This is the resume I host at https://jimschubert.dev.
+This repository contains the resume site hosted at https://jimschubert.dev.
 
-The resume is written with [Hugo](https://gohugo.io/).
+It is built with [Hugo](https://gohugo.io/) and the
+[`jimschubert-resume`](https://github.com/jimschubert/jimschubert-resume) theme.
 
-The design is a free theme called Orbit by [Xiaoying Riley](https://github.com/xriley/Orbit-Theme) (see the theme's [license](./ortbit-license)).
+Resume content lives in `data/content.yaml` and follows the theme's v2 schema.
 
-## Build
-
-To build this, run:
+## Local development
 
 ```shell
-hugo server -D --logLevel=debug --enableGitInfo --noHTTPCache --disableFastRender
+hugo server -D
 ```
 
+## Production build
+
+```shell
+hugo
+```

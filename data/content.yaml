@@ -344,6 +344,25 @@ projects:
     developer tooling, automation, and platform infrastructure. The following is a
     representative subset.
   list:
+    - href: https://github.com/jimschubert/mnemonic
+      name: jimschubert/mnemonic
+      description: |
+        A local MCP server which gives LLM coding agents a shared memory layer 
+        for retrieving and reinforcing relevant project knowledge, reducing reliance on 
+        bloated static instruction files through scoped storage and semantic retrieval.
+
+        As a local MCP server, this allows all knowledge to be shared across all agents.
+
+        Supports file-based YAML storage for version-controllable memory. Also supports
+        sqlite with [vec1](https://sqlite.org/vec1/doc/trunk/doc/vec1.md) for heavier knowledge bases, 
+        all self-contained within the binary.
+
+    - href: https://github.com/jimschubert/rumor
+      name: jimschubert/rumor
+      description: |
+        Lightweight gRPC and HTTP/JSON mock server which allows for rapid API mocking.
+        Supports generating realistic datasets from simplified or standard JSON Schema definitions.
+
     - href: https://github.com/jimschubert/rewrite-docker
       title: jimschubert/rewrite-docker
       description: |

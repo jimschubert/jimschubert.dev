@@ -37,7 +37,7 @@ jobs:
     steps:
       # Install Go before Hugo so go install uses the toolchain compatible with go.mod.
       - name: Install Go
-        uses: actions/setup-go@v6
+        uses: actions/setup-go@v7
         with:
           go-version: 'stable'
       - name: Checkout

@@ -1,6 +1,6 @@
 profile:
   name: Jim Schubert
-  title: Sr. Lead Software Engineer
+  title: Staff Engineer, Full Stack
   email: james.schubert@gmail.com
   links:
     - icon: ti-brand-github
@@ -12,9 +12,9 @@ profile:
     - icon: ti-brand-stackoverflow
       label: StackOverflow Profile
       url: http://bit.ly/JimSchubert-SO
-meta_description: A well-rounded hands-on senior engineer who has been coding since 1988.
+meta_description: A well-rounded hands-on Staff Engineer who has been coding since 1988.
 summary: |-
-  I'm a hands-on Senior Lead Software Engineer with a track record of building platforms
+  I'm a hands-on Full Stack Staff Engineer with a track record of building platforms
   and tooling that multiply team capability at scale. I architect systems, drive
   cross-organizational migrations, and identify the problems that aren't on anyone's
   roadmap yet — from redesigning event-driven automation platforms to standardizing
@@ -30,12 +30,25 @@ summary: |-
   live-coding stream. Always happy to connect with engineers trading stories about
   hard problems and the solutions that eventually stuck.
 experiences:
+  - title: Staff Engineer, Full Stack
+    company: Redacted (contact for details)
+    location: Richmond, VA
+    start: August 2026
+    end: Present
+    highlights:
+      - Increased adoption of hardened container images by onboarding additional vendors and expanding the standardized supply-chain path across the organization.
+      - Defined strategies to significantly improve the efficacy, scalability, and maintainability of internal automation platforms.
+      - Drove efforts to consolidate on an industry-standard SaaS platform, replacing selected in-house capabilities and reducing operational burden.
+      - Diagnosed unstable container-image attribution across 10+ tools and storage implementations, where differing config, index, and platform digests caused missing ownership and vulnerability joins; published an evidence-based cross-system analysis and proposed explicit, digest-specific identifiers for stakeholder alignment.
   - title: Sr. Lead Software Engineer
     company: Redacted (contact for details)
     location: Richmond, VA
     start: June 2019
-    end: Present
+    end: July 2026
     highlights:
+      - Led adoption of hardened container images through hands-on technical implementation, automation, engineering support, and workshops, helping eliminate billions of vulnerability exposures within a year.
+      - Defined the architectural strategy to revamp an internal automation platform, improving resilience, efficacy, and maintainability.
+      - Partnered across business lines on proposals spanning package-manager hardening and runtime, policy-driven vulnerability protection using emerging technologies such as eBPF.
       - Transitioned from directly managing a 7-person platform team to a horizontal technical leadership role (vacated by a Distinguished Engineer), guiding architecture and platform strategy for ~24 engineers and a 120+ cross-functional stakeholder network.
       - Redesigned a legacy webhook delivery model into an event-driven AWS architecture (SNS/SQS/Lambda), reducing daily event volume by 97% (200,000 to 5,000) and cutting failure rates by 90% while absorbing 15% higher PR volume. The design was subsequently adopted as the organizational standard.
       - Authored and open-sourced OpenRewrite Docker recipes to drive a mass migration to hardened distroless images, successfully standardizing supply chains and automating across 3,300+ production repositories, providing white-glove support to ~200 applications..
@@ -237,6 +250,12 @@ skills:
   - name: Architecture + Design
     percent: 95
     level: Expert
+  - name: Platform Engineering
+    percent: 95
+    level: Expert
+  - name: Technical Strategy
+    percent: 95
+    level: Expert
   - name: Go ("Golang")
     percent: 95
     level: Expert
@@ -256,6 +275,15 @@ skills:
     percent: 95
     level: Expert
   - name: Supply Chain Security
+    percent: 90
+    level: Advanced
+  - name: Security / Vulnerability Management
+    percent: 90
+    level: Advanced
+  - name: OCI / Container Image Standards
+    percent: 90
+    level: Advanced
+  - name: Vulnerability Attribution
     percent: 90
     level: Advanced
   - name: Observability (OpenTelemetry/CNCF)
@@ -279,24 +307,21 @@ skills:
   - name: CI/CD-related
     percent: 85
     level: Advanced
-  - name: JavaScript Ecosystem
+  - name: Distributed Systems
     percent: 85
     level: Advanced
-  - name: Security / Vulnerability Management
+  - name: SaaS Platform Integration
     percent: 85
     level: Advanced
-  - name: RDMS
+  - name: PostgreSQL
     percent: 80
     level: Proficient
-  - name: Other JVM
+  - name: MySQL
     percent: 75
     level: Proficient
-  - name: Other Languages
+  - name: SQL Server
     percent: 75
     level: Proficient
-  - name: Getting things done
-    percent: 100
-    level: Expert
 publications_summary: I extend my dedication to developer productivity into writing and performing technical reviews of written works.
 publications:
   - title: 'Your First App: Node.js by Jim Schubert'
